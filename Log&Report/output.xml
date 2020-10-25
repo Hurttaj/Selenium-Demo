@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.7.1 on win32)" generated="20201025 23:53:06.488" rpa="false">
+<suite id="s1" name="Webtesting" source="C:\Robot\Selenium-Demo\Webtesting.robot">
+<test id="s1-t1" name="Yle">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>https://yle.fi/</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20201025 23:53:07.029" level="INFO">Opening browser 'chrome' to base url 'https://yle.fi/'.</msg>
+<status status="PASS" starttime="20201025 23:53:07.028" endtime="20201025 23:53:12.041"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20201025 23:53:12.041" endtime="20201025 23:53:14.164"></status>
+</kw>
+<kw name="Click Link" library="SeleniumLibrary">
+<doc>Clicks a link identified by ``locator``.</doc>
+<arguments>
+<arg>Uutiset</arg>
+</arguments>
+<msg timestamp="20201025 23:53:14.165" level="INFO">Clicking link 'Uutiset'.</msg>
+<status status="PASS" starttime="20201025 23:53:14.165" endtime="20201025 23:53:15.552"></status>
+</kw>
+<kw name="Click Link" library="SeleniumLibrary">
+<doc>Clicks a link identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://*[@id="yle__contentAnchor"]/div/div[1]/div[1]/div/div/a</arg>
+</arguments>
+<msg timestamp="20201025 23:53:15.552" level="INFO">Clicking link 'xpath://*[@id="yle__contentAnchor"]/div/div[1]/div[1]/div/div/a'.</msg>
+<status status="PASS" starttime="20201025 23:53:15.552" endtime="20201025 23:53:15.635"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20201025 23:53:15.635" endtime="20201025 23:53:17.894"></status>
+</kw>
+<doc>Menee Ylen sivuille ja avaa pääjutun.</doc>
+<status status="PASS" starttime="20201025 23:53:07.027" endtime="20201025 23:53:17.894" critical="yes"></status>
+</test>
+<test id="s1-t2" name="Yle2">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>https://yle.fi/</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20201025 23:53:17.896" level="INFO">Opening browser 'chrome' to base url 'https://yle.fi/'.</msg>
+<status status="PASS" starttime="20201025 23:53:17.896" endtime="20201025 23:53:24.120"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20201025 23:53:24.121" endtime="20201025 23:53:26.238"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://*[@id="app"]/div/div[1]/header/div/div/div[1]/form/input[3]</arg>
+<arg>hallitus</arg>
+<arg>clear=true</arg>
+</arguments>
+<msg timestamp="20201025 23:53:26.239" level="INFO">Typing text 'hallitus' into text field 'xpath://*[@id="app"]/div/div[1]/header/div/div/div[1]/form/input[3]'.</msg>
+<status status="PASS" starttime="20201025 23:53:26.239" endtime="20201025 23:53:26.351"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://*[@id="app"]/div/div[1]/header/div/div/div[1]/form/button</arg>
+</arguments>
+<msg timestamp="20201025 23:53:26.352" level="INFO">Clicking element 'xpath://*[@id="app"]/div/div[1]/header/div/div/div[1]/form/button'.</msg>
+<status status="PASS" starttime="20201025 23:53:26.351" endtime="20201025 23:53:27.140"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20201025 23:53:27.140" endtime="20201025 23:53:29.267"></status>
+</kw>
+<doc>Menee Ylen sivuille ja tekee tekstihaku.</doc>
+<status status="PASS" starttime="20201025 23:53:17.895" endtime="20201025 23:53:29.267" critical="yes"></status>
+</test>
+<test id="s1-t3" name="Digitraffic">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>https://www.digitraffic.fi/tieliikenne/</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20201025 23:53:29.270" level="INFO">Opening browser 'chrome' to base url 'https://www.digitraffic.fi/tieliikenne/'.</msg>
+<status status="PASS" starttime="20201025 23:53:29.269" endtime="20201025 23:53:33.494"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20201025 23:53:33.495" endtime="20201025 23:53:35.614"></status>
+</kw>
+<kw name="Click Link" library="SeleniumLibrary">
+<doc>Clicks a link identified by ``locator``.</doc>
+<arguments>
+<arg>partial link:free-flow-speeds</arg>
+</arguments>
+<msg timestamp="20201025 23:53:35.615" level="INFO">Clicking link 'partial link:free-flow-speeds'.</msg>
+<status status="PASS" starttime="20201025 23:53:35.615" endtime="20201025 23:53:35.776"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20201025 23:53:35.777" endtime="20201025 23:53:38.071"></status>
+</kw>
+<doc>Etsii "free-flow-speeds" osoitteen digitraficin sivuilta.</doc>
+<status status="PASS" starttime="20201025 23:53:29.268" endtime="20201025 23:53:38.071" critical="yes"></status>
+</test>
+<test id="s1-t4" name="Digitraffic2">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>https://www.digitraffic.fi</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20201025 23:53:38.074" level="INFO">Opening browser 'chrome' to base url 'https://www.digitraffic.fi'.</msg>
+<status status="PASS" starttime="20201025 23:53:38.073" endtime="20201025 23:53:42.886"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20201025 23:53:42.887" endtime="20201025 23:53:45.072"></status>
+</kw>
+<kw name="Page Should Contain" library="SeleniumLibrary">
+<doc>Verifies that current page contains ``text``.</doc>
+<arguments>
+<arg>Digitraffic</arg>
+</arguments>
+<msg timestamp="20201025 23:53:45.103" level="INFO">Current page contains text 'Digitraffic'.</msg>
+<status status="PASS" starttime="20201025 23:53:45.072" endtime="20201025 23:53:45.103"></status>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20201025 23:53:45.104" endtime="20201025 23:53:47.377"></status>
+</kw>
+<doc>Varmistaa että digitraficin sivuilta löytyy teksti "Digitraffic".</doc>
+<status status="PASS" starttime="20201025 23:53:38.072" endtime="20201025 23:53:47.377" critical="yes"></status>
+</test>
+<test id="s1-t5" name="Digitraffic API">
+<kw name="Create Session" library="RequestsLibrary">
+<doc>Create Session: create a HTTP session to a server</doc>
+<arguments>
+<arg>Camera</arg>
+<arg>https://tie.digitraffic.fi/api</arg>
+<arg>verify=true</arg>
+</arguments>
+<msg timestamp="20201025 23:53:47.380" level="INFO">Creating Session using : alias=Camera, url=https://tie.digitraffic.fi/api, headers={},                     cookies={}, auth=None, timeout=None, proxies=None, verify=True,                     debug=0 </msg>
+<status status="PASS" starttime="20201025 23:53:47.379" endtime="20201025 23:53:47.380"></status>
+</kw>
+<kw name="Get Request" library="RequestsLibrary">
+<doc>Send a GET request on the session object found using the
+given `alias`</doc>
+<arguments>
+<arg>Camera</arg>
+<arg>/v1/data/camera-data</arg>
+</arguments>
+<msg timestamp="20201025 23:53:47.857" level="INFO">GET Request : url=https://tie.digitraffic.fi/api/v1/data/camera-data 
+ path_url=/api/v1/data/camera-data 
+ headers={'User-Agent': 'python-requests/2.21.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'} 
+ body=None 
+ </msg>
+<msg timestamp="20201025 23:53:50.289" level="INFO">GET Response : url=https://tie.digitraffic.fi/api/v1/data/camera-data 
+ status=200, reason= 
+ body={
+  "dataUpdatedTime" : "2020-10-25T21:53:42Z",
+  "cameraStations" : [ {
+    "id" : "C01502",
+    "roadStationId" : 1502,
+    "nearestWeatherStationId" : 1019,
+    "cameraPresets" : [ {
+      "id" : "C0150200",
+      "presentationName" : "Porvoo",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0150200.jpg",
+      "measuredTime" : "2020-10-25T21:50:35Z"
+    }, {
+      "id" : "C0150201",
+      "presentationName" : "Tie 7 Kotkaan",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0150201.jpg",
+      "measuredTime" : "2016-12-02T12:12:38Z"
+    }, {
+      "id" : "C0150202",
+      "presentationName" : "Tie 7 Helsinkiin",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0150202.jpg",
+      "measuredTime" : "2016-12-02T12:12:19Z"
+    }, {
+      "id" : "C0150204",
+      "presentationName" : "Tie 55 Porvooseen",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0150204.jpg",
+      "measuredTime" : "2016-12-02T12:12:52Z"
+    }, {
+      "id" : "C0150209",
+      "presentationName" : "Tienpinta",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0150209.jpg",
+      "measuredTime" : "2016-12-02T12:12:06Z"
+    } ]
+  }, {
+    "id" : "C01503",
+    "roadStationId" : 1503,
+    "nearestWeatherStationId" : 1013,
+    "cameraPresets" : [ {
+      "id" : "C0150301",
+      "presentationName" : "Inkooseen",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0150301.jpg",
+      "measuredTime" : "2020-10-25T21:47:13Z"
+    }, {
+      "id" : "C0150302",
+      "presentationName" : "Hankoon",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0150302.jpg",
+      "measuredTime" : "2020-10-25T21:47:39Z"
+    }, {
+      "id" : "C0150309",
+      "presentationName" : "Tienpinta",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0150309.jpg",
+      "measuredTime" : "2020-10-25T21:47:26Z"
+    } ]
+  }, {
+    "id" : "C01504",
+    "roadStationId" : 1504,
+    "nearestWeatherStationId" : 1007,
+    "cameraPresets" : [ {
+      "id" : "C0150401",
+      "presentationName" : "Poriin",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0150401.jpg",
+      "measuredTime" : "2020-10-25T21:51:09Z"
+    }, {
+      "id" : "C0150402",
+      "presentationName" : "Helsinkiin",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0150402.jpg",
+      "measuredTime" : "2020-10-25T21:50:46Z"
+    }, {
+      "id" : "C0150409",
+      "presentationName" : "Tienpinta",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0150409.jpg",
+      "measuredTime" : "2020-10-25T21:50:58Z"
+    } ]
+  }, {
+    "id" : "C01505",
+    "roadStationId" : 1505,
+    "nearestWeatherStationId" : 2018,
+    "cameraPresets" : [ {
+      "id" : "C0150501",
+      "presentationName" : "Perniöön",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0150501.jpg",
+      "measuredTime" : "2020-10-25T21:45:49Z"
+    } ]
+  }, {
+    "id" : "C01506",
+    "roadStationId" : 1506,
+    "nearestWeatherStationId" : 1025,
+    "cameraPresets" : [ {
+      "id" : "C0150601",
+      "presentationName" : "Tie 25 Hyvinkäälle",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0150601.jpg",
+      "measuredTime" : "2020-10-25T21:50:56Z"
+    }, {
+      "id" : "C0150602",
+      "presentationName" : "Tie 25 Hankoon",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0150602.jpg",
+      "measuredTime" : "2020-10-25T21:51:20Z"
+    }, {
+      "id" : "C0150603",
+      "presentationName" : "Tie 110 Turkuun",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0150603.jpg",
+      "measuredTime" : "2020-10-25T21:50:48Z"
+    }, {
+      "id" : "C0150604",
+      "presentationName" : "Tie 110 Helsinkiin",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0150604.jpg",
+      "measuredTime" : "2020-10-25T21:51:12Z"
+    }, {
+      "id" : "C0150609",
+      "presentationName" : "Tie 25 Tienpinta",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0150609.jpg",
+      "measuredTime" : "2020-10-25T21:51:04Z"
+    } ]
+  }, {
+    "id" : "C01507",
+    "roadStationId" : 1507,
+    "nearestWeatherStationId" : 1014,
+    "cameraPresets" : [ {
+      "id" : "C0150701",
+      "presentationName" : "Tie 25 Hyvinkäälle",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0150701.jpg",
+      "measuredTime" : "2020-10-25T21:52:33Z"
+    }, {
+      "id" : "C0150702",
+      "presentationName" : "Tie 25 Hankoon",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0150702.jpg",
+      "measuredTime" : "2020-10-25T21:52:10Z"
+    }, {
+      "id" : "C0150709",
+      "presentationName" : "Tienpinta",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0150709.jpg",
+      "measuredTime" : "2020-10-25T21:52:22Z"
+    } ]
+  }, {
+    "id" : "C01508",
+    "roadStationId" : 1508,
+    "nearestWeatherStationId" : 1010,
+    "cameraPresets" : [ {
+      "id" : "C0150801",
+      "presentationName" : "Tie 4 Lahteen",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0150801.jpg",
+      "measuredTime" : "2020-10-25T21:49:17Z"
+    }, {
+      "id" : "C0150802",
+      "presentationName" : "Tie 4 Helsinkiin",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0150802.jpg",
+      "measuredTime" : "2020-10-25T21:49:53Z"
+    }, {
+      "id" : "C0150803",
+      "presentationName" : "Tie 140 Lahteen",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0150803.jpg",
+      "measuredTime" : "2020-10-25T21:49:05Z"
+    }, {
+      "id" : "C0150804",
+      "presentationName" : "Tie 140 Helsinkiin",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0150804.jpg",
+      "measuredTime" : "2020-10-25T21:49:28Z"
+    }, {
+      "id" : "C0150809",
+      "presentationName" : "Tienpinta",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0150809.jpg",
+      "measuredTime" : "2020-10-25T21:49:41Z"
+    } ]
+  }, {
+    "id" : "C01509",
+    "roadStationId" : 1509,
+    "nearestWeatherStationId" : 1020,
+    "cameraPresets" : [ {
+      "id" : "C0150901",
+      "presentationName" : "Tie 3 Tampereelle",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0150901.jpg",
+      "measuredTime" : "2020-10-25T21:53:18Z"
+    }, {
+      "id" : "C0150902",
+      "presentationName" : "Tie 3 Helsinkiin",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0150902.jpg",
+      "measuredTime" : "2020-10-25T21:52:44Z"
+    }, {
+      "id" : "C0150903",
+      "presentationName" : "Tie 25 Mäntsälään",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0150903.jpg",
+      "measuredTime" : "2020-10-25T21:52:33Z"
+    }, {
+      "id" : "C0150904",
+      "presentationName" : "Tie 25 Hankoon",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0150904.jpg",
+      "measuredTime" : "2020-10-25T21:53:06Z"
+    }, {
+      "id" : "C0150909",
+      "presentationName" : "Tie 3 Tienpinta",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0150909.jpg",
+      "measuredTime" : "2020-10-25T21:52:55Z"
+    } ]
+  }, {
+    "id" : "C01510",
+    "roadStationId" : 1510,
+    "nearestWeatherStationId" : 1032,
+    "cameraPresets" : [ {
+      "id" : "C0151001",
+      "presentationName" : "Turkuun",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0151001.jpg",
+      "measuredTime" : "2020-10-25T21:51:12Z"
+    }, {
+      "id" : "C0151002",
+      "presentationName" : "Helsinkiin",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0151002.jpg",
+      "measuredTime" : "2020-10-25T21:50:49Z"
+    }, {
+      "id" : "C0151009",
+      "presentationName" : "Tienpinta",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0151009.jpg",
+      "measuredTime" : "2020-10-25T21:51:01Z"
+    } ]
+  }, {
+    "id" : "C01511",
+    "roadStationId" : 1511,
+    "nearestWeatherStationId" : 1036,
+    "cameraPresets" : [ {
+      "id" : "C0151101",
+      "presentationName" : "Tuusulaan",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0151101.jpg",
+      "measuredTime" : "2020-10-25T21:48:33Z"
+    }, {
+      "id" : "C0151102",
+      "presentationName" : "Helsinkiin",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0151102.jpg",
+      "measuredTime" : "2020-10-25T21:48:12Z"
+    }, {
+      "id" : "C0151104",
+      "presentationName" : "Kehä III Länteen",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0151104.jpg",
+      "measuredTime" : "2020-10-25T21:48:00Z"
+    }, {
+      "id" : "C0151109",
+      "presentationName" : "Tienpinta",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0151109.jpg",
+      "measuredTime" : "2020-10-25T21:48:23Z"
+    } ]
+  }, {
+    "id" : "C01513",
+    "roadStationId" : 1513,
+    "nearestWeatherStationId" : 1034,
+    "cameraPresets" : [ {
+      "id" : "C0151301",
+      "presentationName" : "Kehä I Itään",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0151301.jpg",
+      "measuredTime" : "2020-10-25T21:45:06Z"
+    }, {
+      "id" : "C0151302",
+      "presentationName" : "Kehä I Länteen",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0151302.jpg",
+      "measuredTime" : "2020-10-25T21:44:55Z"
+    }, {
+      "id" : "C0151303",
+      "presentationName" : "Tie 45 Tuusulaan",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0151303.jpg",
+      "measuredTime" : "2020-10-25T21:44:33Z"
+    }, {
+      "id" : "C0151309",
+      "presentationName" : "Tie 45 Tienpinta",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0151309.jpg",
+      "measuredTime" : "2020-10-25T21:44:44Z"
+    } ]
+  }, {
+    "id" : "C01521",
+    "roadStationId" : 1521,
+    "nearestWeatherStationId" : 1034,
+    "cameraPresets" : [ {
+      "id" : "C0152101",
+      "presentationName" : "Itään",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0152101.jpg",
+      "measuredTime" : "2020-10-25T21:43:07Z"
+    }, {
+      "id" : "C0152102",
+      "presentationName" : "Länteen",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0152102.jpg",
+      "measuredTime" : "2020-10-25T21:42:56Z"
+    }, {
+      "id" : "C0152109",
+      "presentationName" : "Tienpinta",
+      "imageUrl" : "https://weathercam.digitraffic.fi/C0152109.jpg",
+      "measuredTime" : "2020-10-25T21:42:44Z"
+    } ]
+  }, {
+    "id" : "C01522",
+    "roadStationId... (set the log level to DEBUG or TRACE to see the full content) 
+ </msg>
+<status status="PASS" starttime="20201025 23:53:47.381" endtime="20201025 23:53:50.289"></status>
+</kw>
+<status status="PASS" starttime="20201025 23:53:47.378" endtime="20201025 23:53:50.289" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20201025 23:53:06.518" endtime="20201025 23:53:50.291"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="5" fail="0">Critical Tests</stat>
+<stat pass="5" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="5" fail="0" id="s1" name="Webtesting">Webtesting</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

@@ -1,0 +1,6 @@
+--outputdir
+C:\Users\Jussi\AppData\Local\Temp\RIDE40ko1nrb.d
+-C
+off
+-W
+244

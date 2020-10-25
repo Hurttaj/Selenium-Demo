@@ -1,0 +1,1 @@
+Muutama yksinkertainen robot framework testi Ride.py:ssä. Tein testejä ylen ja trafin verkkosivuille.
